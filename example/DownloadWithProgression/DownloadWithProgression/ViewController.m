@@ -33,7 +33,7 @@
 //    NSString *file = @"https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png";
     DownloadFile *operation = [[DownloadFile alloc] init];
     [operation startDownloadFile:[NSURL URLWithString:file]
-                      outputName:@"myDownload"
+                      outputName:@"downloadedFile"
                     loadingTitle:@"Downloading file ..."
             withFinishCallback:^(DownloadFileStatus status, NSError *error) {
                 
