@@ -9,7 +9,7 @@
 
 @implementation DownloadFile
 
-// Method for creating the LoadingTitle programmatically
+// Method for creating the LoadingDialog programmatically
 - (void)createLoadingDialogWithTitle:(NSString *)title {
     
     SimpleGUIFactory *gui = [SimpleGUIFactory sharedInstance];
