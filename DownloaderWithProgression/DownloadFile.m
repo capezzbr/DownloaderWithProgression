@@ -18,7 +18,7 @@
     
     // Create an ActivityIndicator and a button for aborting the download operation
     [_view addSubview:[gui activityIndicator]];
-    [_view addSubview:[gui closeButtonWithTarget:self andSelector:@selector(userAborted)]];
+    [_view addSubview:[gui closeButtonWithTarget:self andSelector:@selector(cancel)]];
     
     // Create the loading bar
     _progressBar = [gui progressView];
@@ -39,9 +39,9 @@
             loadingTitle:(NSString *)title
       withFinishCallback:(void(^)(DownloadFileStatus status, NSError *error))callback {
     
-    _callback = [callback copy];
-    
     [self createLoadingDialogWithTitle:title];
+    
+    _callback = [callback copy];
     
     // Creating the AFNetworking request
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -67,15 +67,15 @@
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         callback(kDownloadFileStatusError, error);
         [strongSelf operationEnded];
-     }];
+    }];
     
     [_request start];
 }
 
--(void)userAborted {
+- (void)cancel {
     
     [_request cancel];
-    _callback(kDownloadFileStatusUserAborted, nil);
+    _callback(kDownloadFileStatusUserCancel, nil);
     [self operationEnded];
 }
 

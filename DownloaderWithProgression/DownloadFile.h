@@ -12,7 +12,7 @@
 typedef enum {
     kDownloadFileStatusSuccess      = 1,
     kDownloadFileStatusError        = 2,
-    kDownloadFileStatusUserAborted  = 3
+    kDownloadFileStatusUserCancel   = 3
 } DownloadFileStatus;
 
 @interface DownloadFile : NSObject {
@@ -26,5 +26,7 @@ typedef enum {
                outputName:(NSString *)name
              loadingTitle:(NSString *)title
        withFinishCallback:(void(^)(DownloadFileStatus status, NSError *error))callback;
+
+- (void)cancel;
 
 @end
