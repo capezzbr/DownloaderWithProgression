@@ -2,7 +2,8 @@ DownloaderWithProgression
 ==================
 
 Tiny iOS library based on AFNetworking that helps the developer to create a downloading dialog with progress view, with less then 10 lines of code.
-How to use it
+
+Usage
 ---------
 ```objective-c
 DownloadFile *operation = [[DownloadFile alloc] init];
@@ -27,15 +28,19 @@ DownloadFile *operation = [[DownloadFile alloc] init];
         }];
 ```
 
-And the result is
+Result
 ---------
 ![ScreenShot](screen.PNG)
 
-How to install 
+How To Get Started 
 ---------
 1. Drag & drop inside your project the folder named DownloaderWithProgression
 2. Add to your project the awesome framework [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 3. That's all!
+
+Unit Tests
+---------
+Some unit tests are available inside the Example project [Link](/example/DownloadWithProgression/DownloadWithProgressionTests/DownloadWithProgressionTests.m)
 
 License 
 ---------
