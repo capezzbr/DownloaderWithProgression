@@ -40,7 +40,7 @@ How To Get Started
 
 Unit Tests
 ---------
-Some unit tests are available inside the Example project [Link](/example/DownloadWithProgression/DownloadWithProgressionTests/DownloadWithProgressionTests.m)
+Some unit tests are available inside the [Example project](/example/DownloadWithProgression/DownloadWithProgressionTests/DownloadWithProgressionTests.m)
 
 License 
 ---------
