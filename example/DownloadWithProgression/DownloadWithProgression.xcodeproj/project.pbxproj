@@ -39,18 +39,18 @@
 		571CD41518FD2C9E00828146 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD3FD18FD2C9E00828146 /* AFXMLRequestOperation.m */; };
 		571CD41618FD2C9E00828146 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD3FF18FD2C9E00828146 /* UIImageView+AFNetworking.m */; };
 		571CD41718FD2C9E00828146 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD3FF18FD2C9E00828146 /* UIImageView+AFNetworking.m */; };
-		571CD41818FD2C9E00828146 /* close-button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD40018FD2C9E00828146 /* close-button-2.png */; };
-		571CD41918FD2C9E00828146 /* close-button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD40018FD2C9E00828146 /* close-button-2.png */; };
-		571CD41A18FD2C9E00828146 /* close-button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD40118FD2C9E00828146 /* close-button-3.png */; };
-		571CD41B18FD2C9E00828146 /* close-button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD40118FD2C9E00828146 /* close-button-3.png */; };
-		571CD41C18FD2C9E00828146 /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD40318FD2C9E00828146 /* DownloadFile.m */; };
-		571CD41D18FD2C9E00828146 /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD40318FD2C9E00828146 /* DownloadFile.m */; };
-		571CD41E18FD2C9E00828146 /* SimpleGUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD40518FD2C9E00828146 /* SimpleGUIFactory.m */; };
-		571CD41F18FD2C9E00828146 /* SimpleGUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD40518FD2C9E00828146 /* SimpleGUIFactory.m */; };
 		571CD42118FD2CC100828146 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571CD42018FD2CC100828146 /* Security.framework */; };
 		571CD42318FD2CC800828146 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571CD42218FD2CC800828146 /* CFNetwork.framework */; };
 		571CD42518FD372A00828146 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571CD42418FD372A00828146 /* SystemConfiguration.framework */; };
 		571CD42718FD373600828146 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571CD42618FD373600828146 /* MobileCoreServices.framework */; };
+		571CD43E18FD44EB00828146 /* close-button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD43818FD44EB00828146 /* close-button-2.png */; };
+		571CD43F18FD44EB00828146 /* close-button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD43818FD44EB00828146 /* close-button-2.png */; };
+		571CD44018FD44EB00828146 /* close-button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD43918FD44EB00828146 /* close-button-3.png */; };
+		571CD44118FD44EB00828146 /* close-button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CD43918FD44EB00828146 /* close-button-3.png */; };
+		571CD44218FD44EB00828146 /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD43B18FD44EB00828146 /* DownloadFile.m */; };
+		571CD44318FD44EB00828146 /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD43B18FD44EB00828146 /* DownloadFile.m */; };
+		571CD44418FD44EB00828146 /* SimpleGUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD43D18FD44EB00828146 /* SimpleGUIFactory.m */; };
+		571CD44518FD44EB00828146 /* SimpleGUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD43D18FD44EB00828146 /* SimpleGUIFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,16 +102,16 @@
 		571CD3FD18FD2C9E00828146 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		571CD3FE18FD2C9E00828146 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		571CD3FF18FD2C9E00828146 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		571CD40018FD2C9E00828146 /* close-button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close-button-2.png"; path = "../../../close-button-2.png"; sourceTree = "<group>"; };
-		571CD40118FD2C9E00828146 /* close-button-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close-button-3.png"; path = "../../../close-button-3.png"; sourceTree = "<group>"; };
-		571CD40218FD2C9E00828146 /* DownloadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadFile.h; path = ../../../DownloadFile.h; sourceTree = "<group>"; };
-		571CD40318FD2C9E00828146 /* DownloadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadFile.m; path = ../../../DownloadFile.m; sourceTree = "<group>"; };
-		571CD40418FD2C9E00828146 /* SimpleGUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleGUIFactory.h; path = ../../../SimpleGUIFactory.h; sourceTree = "<group>"; };
-		571CD40518FD2C9E00828146 /* SimpleGUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleGUIFactory.m; path = ../../../SimpleGUIFactory.m; sourceTree = "<group>"; };
 		571CD42018FD2CC100828146 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		571CD42218FD2CC800828146 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		571CD42418FD372A00828146 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		571CD42618FD373600828146 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		571CD43818FD44EB00828146 /* close-button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button-2.png"; sourceTree = "<group>"; };
+		571CD43918FD44EB00828146 /* close-button-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button-3.png"; sourceTree = "<group>"; };
+		571CD43A18FD44EB00828146 /* DownloadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadFile.h; sourceTree = "<group>"; };
+		571CD43B18FD44EB00828146 /* DownloadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadFile.m; sourceTree = "<group>"; };
+		571CD43C18FD44EB00828146 /* SimpleGUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleGUIFactory.h; sourceTree = "<group>"; };
+		571CD43D18FD44EB00828146 /* SimpleGUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGUIFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,13 +179,8 @@
 		571CD3BB18FD27A900828146 /* DownloadWithProgression */ = {
 			isa = PBXGroup;
 			children = (
+				571CD43718FD44EB00828146 /* DownloaderWithProgression */,
 				571CD3EC18FD2C9D00828146 /* AFNetworking */,
-				571CD40018FD2C9E00828146 /* close-button-2.png */,
-				571CD40118FD2C9E00828146 /* close-button-3.png */,
-				571CD40218FD2C9E00828146 /* DownloadFile.h */,
-				571CD40318FD2C9E00828146 /* DownloadFile.m */,
-				571CD40418FD2C9E00828146 /* SimpleGUIFactory.h */,
-				571CD40518FD2C9E00828146 /* SimpleGUIFactory.m */,
 				571CD3C418FD27A900828146 /* AppDelegate.h */,
 				571CD3C518FD27A900828146 /* AppDelegate.m */,
 				571CD3C718FD27A900828146 /* Main.storyboard */,
@@ -251,6 +246,20 @@
 			);
 			name = AFNetworking;
 			path = ../../../AFNetworking;
+			sourceTree = "<group>";
+		};
+		571CD43718FD44EB00828146 /* DownloaderWithProgression */ = {
+			isa = PBXGroup;
+			children = (
+				571CD43818FD44EB00828146 /* close-button-2.png */,
+				571CD43918FD44EB00828146 /* close-button-3.png */,
+				571CD43A18FD44EB00828146 /* DownloadFile.h */,
+				571CD43B18FD44EB00828146 /* DownloadFile.m */,
+				571CD43C18FD44EB00828146 /* SimpleGUIFactory.h */,
+				571CD43D18FD44EB00828146 /* SimpleGUIFactory.m */,
+			);
+			name = DownloaderWithProgression;
+			path = ../../../DownloaderWithProgression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,11 +338,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571CD41A18FD2C9E00828146 /* close-button-3.png in Resources */,
+				571CD44018FD44EB00828146 /* close-button-3.png in Resources */,
 				571CD3CE18FD27A900828146 /* Images.xcassets in Resources */,
 				571CD3C018FD27A900828146 /* InfoPlist.strings in Resources */,
 				571CD3C918FD27A900828146 /* Main.storyboard in Resources */,
-				571CD41818FD2C9E00828146 /* close-button-2.png in Resources */,
+				571CD43E18FD44EB00828146 /* close-button-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +351,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				571CD3DF18FD27A900828146 /* InfoPlist.strings in Resources */,
-				571CD41B18FD2C9E00828146 /* close-button-3.png in Resources */,
-				571CD41918FD2C9E00828146 /* close-button-2.png in Resources */,
+				571CD44118FD44EB00828146 /* close-button-3.png in Resources */,
+				571CD43F18FD44EB00828146 /* close-button-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +365,14 @@
 			files = (
 				571CD40A18FD2C9E00828146 /* AFImageRequestOperation.m in Sources */,
 				571CD3CC18FD27A900828146 /* ViewController.m in Sources */,
-				571CD41E18FD2C9E00828146 /* SimpleGUIFactory.m in Sources */,
+				571CD44418FD44EB00828146 /* SimpleGUIFactory.m in Sources */,
 				571CD41018FD2C9E00828146 /* AFPropertyListRequestOperation.m in Sources */,
 				571CD3C618FD27A900828146 /* AppDelegate.m in Sources */,
 				571CD41218FD2C9E00828146 /* AFURLConnectionOperation.m in Sources */,
 				571CD41418FD2C9E00828146 /* AFXMLRequestOperation.m in Sources */,
 				571CD40C18FD2C9E00828146 /* AFJSONRequestOperation.m in Sources */,
 				571CD41618FD2C9E00828146 /* UIImageView+AFNetworking.m in Sources */,
-				571CD41C18FD2C9E00828146 /* DownloadFile.m in Sources */,
+				571CD44218FD44EB00828146 /* DownloadFile.m in Sources */,
 				571CD40E18FD2C9E00828146 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				571CD40818FD2C9E00828146 /* AFHTTPRequestOperation.m in Sources */,
 				571CD3C218FD27A900828146 /* main.m in Sources */,
@@ -375,8 +384,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571CD41F18FD2C9E00828146 /* SimpleGUIFactory.m in Sources */,
-				571CD41D18FD2C9E00828146 /* DownloadFile.m in Sources */,
+				571CD44518FD44EB00828146 /* SimpleGUIFactory.m in Sources */,
+				571CD44318FD44EB00828146 /* DownloadFile.m in Sources */,
 				571CD41318FD2C9E00828146 /* AFURLConnectionOperation.m in Sources */,
 				571CD41718FD2C9E00828146 /* UIImageView+AFNetworking.m in Sources */,
 				571CD41518FD2C9E00828146 /* AFXMLRequestOperation.m in Sources */,
