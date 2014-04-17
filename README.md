@@ -34,7 +34,7 @@ Result
 
 How To Get Started 
 ---------
-1. Drag & drop inside your project the folder named DownloaderWithProgression
+1. Drag & drop inside your project the folder named **DownloaderWithProgression**
 2. Add to your project the awesome framework [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 3. That's all!
 
@@ -44,4 +44,4 @@ Some unit tests are available [here](/example/DownloadWithProgression/DownloadWi
 
 License 
 ---------
-DownloaderWithProgression is available under the MIT license. See the LICENSE file for more info.
+**DownloaderWithProgression** is available under the MIT license. See the LICENSE file for more info.
