@@ -44,4 +44,6 @@ Some unit tests are available [here](/example/DownloadWithProgression/DownloadWi
 
 License 
 ---------
-**DownloaderWithProgression** is available under the MIT license. See the LICENSE file for more info.
+DownloaderWithProgression is available under the MIT license. See the LICENSE file for more info.
+
+**Follow me on twitter [@capezzbr](http://www.twitter.com/capezzbr)**
